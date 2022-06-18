@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CSS Cho header */
+.heading{
+    font-size: 20px;
+    color: #24A19C;
+    text-align: center;
+    margin: 30px 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+} 
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background-color: #24A19C;
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+}
+.menu-logo{
+    height: 70px;
+    position: relative;
+    background-color: #ededed;
+}
+.menu-logo .logo{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.menu-logo nav{
+    position: absolute;
+    right: 250px;
+}
+
+.menu-logo nav a{
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin: 0 20px;
+}
+
+.menu-logo nav a:hover{
+    color: #24A19C;
+    font-weight: bold;
+}
+.menu-logo .login i{
+    font-size: 30px;
+    width: 24px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    position: absolute;
+    right: 160px;
+    top: -5px;
+
+}
+.menu-logo .login a{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    text-decoration: none;
+    color: black;
+}
+.menu-logo .login a:hover{
+    color: #24A19C;
+    font-weight: bold;
+}
+/* CSS cho sản phẩm */
+.product{
+    margin-top: 120px;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.product-items{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+    padding: 12px;
+}
+.product-item{
+    width: 19%;
+    background-color: white;
+    padding: 12px;
+    text-align: center;
+}
+.product-item img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.product-item button{
+    margin-top: 12px;
+    height: 30px;
+    padding: 0 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.product-item button:hover{
+    background-color: tomato;
+
+}
+/* CSS cho giỏ hàng */
+.cart{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.cart h2{
+    margin-bottom: 15px;
+}
+.cart table{
+    width: 100%;
+}
+.cart table thead tr th:first-child{
+    text-align: left;
+}
+.cart table tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+.cart table thead tr th:last-child{
+    text-align: right;
+}
+.cart table tbody tr td:last-child{
+    text-align: right;
+}
+
+
+
+
+
+/* CSS CHO FOOTER */
+footer{
+    clear:both;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+footer .footer-item{
+    width: 25%;
+    float: left;
+    
+    
+}
+footer .footer-item h3{
+    margin: 30px 0 10px 30px;
+}
+footer .footer-item p{
+    margin: 10px 0 10px 30px;
+}
+
+.tacgia{
+    background: #24A19C;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.tacgia p{
+    padding-top: 10px;
+}

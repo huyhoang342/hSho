@@ -1,0 +1,321 @@
+li{
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+
+}
+.thongbao{
+height: 74px;
+background-color: #24A19C;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.menu-logo {
+    display: flex;
+    align-items: center;
+    height: 41px;
+    justify-content: space-evenly;
+    background-color: #ededed;
+}
+
+nav {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 24% 18% 18%;
+}
+.item_menu>nav>li>a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+nav li a:hover{
+    font-weight: bold;
+    color: #24A19C;
+}
+.login a:hover{
+    font-weight: bold;
+    color: #24A19C;
+}
+.logo{
+    padding-top: 7px;
+    padding-left: 15px;
+}
+.login{
+    margin-left: 20px;
+}
+.login a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    display: none !important;
+}
+.all-all{
+   max-width: 1170px;
+   margin: 120px auto 0 auto;
+
+}
+.all-info{
+    display: flex;
+}
+.all-item1{
+    width: 50%;
+
+}
+.titlettmh h4{
+    font-size: 20px;
+    font-family: roboto;
+    margin-bottom: 30px;
+}
+.titleptvc h4{
+    font-size: 20px;
+    font-family: roboto;
+    margin-bottom: 15px;
+}
+.titlepttt h4{
+    font-size: 20px;
+    font-family: roboto;
+    margin-bottom: 15px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+.form-group2{
+    display: flex;
+    width: 95%;
+    margin-bottom: 10px;
+}
+.form-group2 .form-control2{
+    width: 800px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}
+.form-control3{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 10px;
+}
+.form-control{
+    width:95%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.form-group input:focus{
+    border: 2x solid blue;
+}
+.form-group3{
+    width: 95%;
+    margin-bottom: 25px;
+}
+.form-group3 .txt{
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin-left: 3px;
+    
+}
+.form-group4{
+    width: 95%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.text-control{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+.text-control span{
+    font-family: roboto;
+    color: #555;
+    margin-left: 5px;
+}
+.text-control b{
+    color: #555;
+}
+.pttt{
+    width: 95%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.spaceinp1{
+    padding: 20px 20px;
+}
+.spaceinp1 span{
+    color: #555;
+}
+.spaceinp2{
+    padding: 20px 20px;
+}
+.spaceinp2 span{
+    color: #555;
+}
+.btnfinish{
+    width: 150px;
+    margin: 10px auto 0 auto;
+}
+.btn{
+    
+    margin-bottom: 15px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #338dbc;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.first-sp p{
+    font-size: 10px;
+    color: #555;
+    margin-left: -155px;
+}
+.first-sp span{
+    font-size: 18px;
+    font-family: roboto;
+    margin-left: 10px;
+}
+.all-item2{
+    border-left: 1px solid gray;
+    margin-left: 50px;
+    width: 50%;
+}
+.allinfo{
+    margin-left: 30px;
+}
+.image{
+    width: 70px;
+    height: 65px;
+
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.first-sp{
+    display: flex;
+    padding-bottom: 15px;
+}
+.all-sp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #555;
+}
+.price  span{
+    color: #555;
+}
+.giamgia{
+    margin-top: 20px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 15px;
+}
+.giamgia input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 400px;
+}
+.giamgia .btn1{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #338dbc;
+    color: white;
+    border: none;
+    width: 90px;
+}
+.tinhtien{
+    border-bottom: 1px solid #555;
+    padding: 20px 20px;
+}
+.tt{
+    display: flex;
+    justify-content: space-between;
+}
+.tinhtien .tt span{
+    color: #555;
+}
+.pvc{
+    display: flex;
+    justify-content: space-between;
+}
+.tinhtien .pvc span{
+    color: #555;
+}
+.tongtien{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+footer {
+    background-color: #24A19C;
+    height: 222px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+footer .footer-item {
+    width: 23%;
+ align-self: baseline;
+    overflow: hidden;
+}
+footer .footer-item p{
+    color: black;
+    font-size: 14px;
+    max-height: 150px;
+}
+
+footer .footer-item h3 {
+    color: black;
+    margin: 30px 0;
+    font-size: 15px;
+}
+
+footer .footer-item p {
+    margin: 10px 0;
+}
+
+.tacgia {
+    clear: both;
+    background: #24A19C;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.tacgia p{
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+

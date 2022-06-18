@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 20px;
+    color: #24A19C;
+    text-align: center;
+    margin: 30px 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+} 
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background-color: #24A19C;
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+}
+.menu-logo{
+    height: 70px;
+    position: relative;
+    background-color: #ededed;
+}
+.menu-logo .logo{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.menu-logo nav{
+    position: absolute;
+    right: 250px;
+}
+
+.menu-logo nav a{
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin: 0 20px;
+}
+
+.menu-logo nav a:hover{
+    color: #24A19C;
+    font-weight: bold;
+}
+.menu-logo .login i{
+    font-size: 30px;
+    width: 24px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+    position: absolute;
+    right: 160px;
+    top: -5px;
+
+}
+.menu-logo .login a{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    text-decoration: none;
+    color: black;
+}
+.menu-logo .login a:hover{
+    color: #24A19C;
+    font-weight: bold;
+}
+/* CSS font login */
+form{
+    margin-top: 150px;
+}
+#form1 p{
+    margin-top: 15px;
+}
+.login-form{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+.login-form #form1{
+    display: flex;
+    /* Dàn các thẻ con thành hàng dọc */
+    flex-direction: column;
+}
+.login-form #form1 p input{
+    padding: 10px 15px;
+    border: 1px solid #24A19C;
+    font-family: 'Quicksand', sans-serif;
+    outline: none;
+    margin: 15px 0;
+    border-radius: 5px;
+    width: 100%;
+}
+.login-form #form1 input:focus{
+    border: 1px solid pink;
+}
+.login-form #form1 button{
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #24A19C;
+    font-size: 18px;
+    font-weight: bold;
+    color: #24A19C;
+    margin-bottom: 25px;
+}
+.login-form #form1 button:hover{
+    background: #24A19C;
+    color: #fff;
+}
+fieldset{
+    height: 50px;
+    border-radius: 5px;
+}
+#fs1 input{
+    margin-left: 15px;
+}
+#fs1 label{
+    margin-left: 5px;
+}
+#fs2 input{
+    margin-left: 15px;
+}
+#fs2 label{
+    margin-left: 5px;
+}
+select{
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #24A19C;
+}
+textarea{
+    border: 1px solid #24A19C;
+    margin-top: 10px;
+    width: 100%;
+}
+textarea:focus{
+    border: 5px solid pink;
+}
+fieldset{
+    border: 1px solid #24A19C;
+}
+#form1 #baoloi{
+    margin: 0px auto;
+    color: red;
+}
+#form1 .loi{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid red;
+    background-color: yellow;
+}
+/* CSS foooter */
+footer{
+ 
+    clear:both;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+footer .footer-item{
+    width: 25%;
+    float: left;
+    
+    
+}
+footer .footer-item h3{
+    margin: 30px 0 10px 30px;
+}
+footer .footer-item p{
+    margin: 10px 0 10px 30px;
+}
+
+.tacgia{
+    background: #24A19C;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.tacgia p{
+    padding-top: 10px;
+}

@@ -1,0 +1,258 @@
+li{
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+
+}
+.thongbao{
+height: 74px;
+background-color: #24A19C;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.menu-logo {
+    display: flex;
+    align-items: center;
+    height: 41px;
+    justify-content: space-evenly;
+    background-color: #ededed;
+}
+
+nav {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 24% 18% 18%;
+}
+.item_menu>nav>li>a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+nav li a:hover{
+    font-weight: bold;
+    color: #24A19C;
+}
+.login a:hover{
+    font-weight: bold;
+    color: #24A19C;
+}
+.logo{
+    padding-top: 7px;
+    padding-left: 15px;
+}
+.login{
+    margin-left: 20px;
+}
+.login a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    display: none !important;
+}
+/* CSS details prodduct */
+.alldetails{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.detailsone{
+    margin-top: 120px;
+    display: flex;
+}
+.textdetails{
+    margin-left: 50px;
+}
+.name-info{
+    font-family: roboto;
+    color: #555;
+    font-size: 20px;
+}
+.price{
+    margin-top: 5px;
+    color: red;
+}
+.color-product{
+    display: flex;
+    margin-top: 15px;
+}
+.shape{
+    border-radius: 50%;
+    border: 1px solid gray;
+    width: 30px;
+    margin-left: 5px;
+}
+
+.shape img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.shape a:hover img{
+    box-shadow: 0px 0px 20px gray
+}
+.size-product{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.size-product li{
+    margin-left: 10px;
+  
+}
+.size-product li a{
+    text-decoration: none;
+    color: #555;
+}
+.size-product li a:hover{
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+.button1{
+    margin-top: 20px;
+    height: 45px;
+    width: 360px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.button1 .buy-now{
+    font-family: roboto;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto;
+
+}
+.button2{
+    margin-top: 10px;
+    background-color: #fff;
+    height: 45px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+}
+.button2 .visitshop{
+    font-family: roboto;
+    color: #000;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.more1{
+    font-family: roboto;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.more2 h4{
+    font-family: roboto;
+    font-size: 13px;
+    margin-top: 25px;
+}
+.more2 p{
+    margin-top: -15px;
+    text-align: justify;
+    font-family: roboto;
+    font-size: 12px;
+    color: #555;
+}
+.more3 h4{
+    font-family: roboto;
+    font-size: 13px;
+    margin-top: 25px;
+}
+.more3 p{
+    margin-top: -15px;
+    text-align: justify;
+    font-family: roboto;
+    font-size: 12px;
+    color: #555;
+}
+.more4 h4{
+    font-family: roboto;
+    font-size: 13px;
+    margin-top: 25px;
+}
+.more4 b{
+    font-size: 17px;
+    color: red;
+}
+.more4 p{
+    margin-top: -15px;
+    text-align: justify;
+    font-family: roboto;
+    font-size: 12px;
+    color: #555;
+}
+.text-info p{
+    text-align: justify;
+    font-family: roboto;
+    font-size: 15px;
+    color: #555;
+}
+.allimageproduct{
+    margin-top: 20px;
+}
+footer {
+    margin-top: 10px;
+    background-color: #24A19C;
+    height: 222px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+footer .footer-item {
+    width: 23%;
+ align-self: baseline;
+    overflow: hidden;
+}
+footer .footer-item p{
+    color: black;
+    font-size: 14px;
+    max-height: 150px;
+}
+
+footer .footer-item h3 {
+    color: black;
+    margin: 30px 0;
+    font-size: 15px;
+}
+
+footer .footer-item p {
+    margin: 10px 0;
+}
+
+.tacgia {
+    clear: both;
+    background: #24A19C;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.tacgia p{
+    padding-top: 10px;
+    font-size: 13px;
+}
